@@ -1,0 +1,19 @@
+.user {
+  display: flex;
+  align-items: center;
+
+  &__avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+  }
+
+  &__column {
+    margin-left: 12px;
+  }
+
+  &__position {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

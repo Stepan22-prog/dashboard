@@ -1,0 +1,17 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 306px;
+  background: $whiteColor;
+  box-shadow: 0 10px 60px 0 rgba(#E2ECF9, .5);
+  height: 100%;
+  padding: 36px 28px 76px 28px;
+
+  &__logo {
+    margin-bottom: 64px;
+  }
+
+  &__menu {
+    flex: auto;
+  }
+}

@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1%;
+    margin-left: 8px;
+  }
+
+  &__version {
+    font-size: 10px;
+    color: #838383;
+    letter-spacing: -1%;
+    margin-left: 4px;
+  }
+}

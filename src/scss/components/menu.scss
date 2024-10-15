@@ -1,0 +1,51 @@
+.menu {
+  &__list {
+    list-style: none;
+  }
+}
+
+.menu-item {
+  border-radius: 8px;
+  transition: $standardTrans;
+
+  &:not(:last-child) {
+    margin-bottom: 18px;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    padding: 8px 11px;
+  }
+
+  &__icon {
+    fill: #9197B3;
+    stroke: #9197B3;
+  }
+
+  &__arrow {
+    fill: none;
+    stroke: #9197B3;
+  }
+
+  &__text {
+    font-size: 14px;
+    color: #9197B3;
+    margin-left: 14px;
+    flex: auto;
+  }
+
+  &_active, &:hover {
+    background: $accentColor;
+    transition: $standardTrans;
+
+    .menu-item__text {
+      color: $whiteColor;
+    }
+
+    svg {
+      fill: $whiteColor;
+      stroke: $whiteColor;
+    }
+  }
+}

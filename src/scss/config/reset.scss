@@ -43,9 +43,9 @@ body {
   font-size: $fontSize + px;
   font-family: $fontFamily;
   font-weight: $fontWeight;
-  line-height: 1.2;
+  line-height: 1.5;
   color: $fontColor;
-  background: $secondaryColor;
+  background: #FAFBFF;
 }
 
 input,
@@ -78,7 +78,7 @@ a {
   }
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -98,7 +98,7 @@ h4,
 h5,
 h6 {
   font-size: inherit;
-  font-weight: 400;
+  font-weight: $fontWeight;
 }
 
 sup {
