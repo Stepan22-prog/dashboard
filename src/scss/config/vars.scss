@@ -1,0 +1,33 @@
+//adaptive
+$mobileS: 450px;
+$mobileB: 600px;
+$tablet: 900px;
+$laptop: 1200px;
+
+$containerWidth: 1440px;
+
+$mainOffset: 20px; // container safety paddings
+$mainOffsetMobileB: 15px;
+$mainFont: 'Roboto';
+$mainWeight: 400;
+
+$primaryColor: #0D0D0D;
+$secondaryColor: #F2F2F2;
+$accentColor: #F2CB05;
+$addBackground: #E8E8E8;
+$whiteColor: #fff;
+
+$fontFamily: $mainFont, sans-serif;
+$fontColor: $primaryColor;
+$fontSize: 16;
+$fontWeight: $mainWeight;
+
+$standardTrans: all 0.4s ease 0ms;
+
+$btnBoxShadow: 0px 2px 3px rgba(#000, 10%), 0px 8px 3px rgba(#000, 10%);
+
+$lightBoxShadow: 0 0 2px 0 rgba(#000, 10%), 0 0 4px 0 rgba(#000, 10%),
+  0 0 8px 0 rgba(#000, 10%);
+
+$hoverBoxShadow: 0 0 5px 0 rgba(#000, 10%), 0 0 10px 0 rgba(#000, 10%),
+  0 0 15px 0 rgba(#000, 10%);
