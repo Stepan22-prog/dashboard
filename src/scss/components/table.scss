@@ -10,10 +10,14 @@
       content: '';
       display: block;
       position: absolute;
-      left: -38px;
+      left: -20px;
       background: #EEEEEE;
       width: calc(100% + 38px + 38px);
       height: 1px;
+
+      @media (max-width: $laptop) {
+        width: calc(100% + 20px + 20px);
+      }
     }
   }
 
@@ -25,6 +29,11 @@
     padding: 20px;
     border-bottom: 1px solid #EEEEEE;
     color: #292D32;
+
+    @media (max-width: $laptop) {
+      padding: 15px 10px;
+      font-size: 12px;
+    }
 
     &:first-child {
       padding-left: 0;
@@ -39,6 +48,9 @@
       text-align: left;
       padding: 14px 20px;
       border-bottom: none;
+      @media (max-width: $laptop) {
+        padding: 14px 10px;
+      }
     }
 
     &_center {

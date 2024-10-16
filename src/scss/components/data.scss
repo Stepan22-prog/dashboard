@@ -5,6 +5,10 @@
   margin-top: 51px;
   padding: 30px 40px 40px 38px;
 
+  @media (max-width: $laptop) {
+    padding: 20px;
+  }
+
   &__header {
     display: flex;
     align-items: center;
@@ -34,42 +38,5 @@
 
   &__entries {
     color: #B5B7C0
-  }
-}
-
-.pagination {
-  display: flex;
-  align-items: flex-end;
-  gap: 12px;
-
-  &__more {
-    font-size: 12px;
-  }
-
-  &__button {
-    width: 26px;
-    height: 24px;
-    color: #404B52;
-    background-color: #F5F5F5;
-    border: 1px solid #EEEEEE;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: $standardTrans;
-    svg {
-      fill: #404B52;
-    }
-
-    &_active, &:hover {
-      background-color: $accentColor;
-      color: $whiteColor;
-      border-color: $accentColor;
-      svg {
-        fill: $whiteColor;
-      }
-    }
-
-    &_prev {
-      transform: rotate(180deg);
-    }
   }
 }
