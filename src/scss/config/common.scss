@@ -1,11 +1,11 @@
-[class*='__container'] {
-  max-width: ($containerWidth + $mainOffset * 2);
-  margin: 0 auto;
-  padding: 0 ($mainOffset);
+.container {
+  width: $containerWidth;
+  margin-left: 71px;
+}
 
-  @media (max-width: $tablet) {
-      padding: 0 $mainOffsetMobileB;
-  }
+.main {
+  margin-top: 41px;
+  margin-bottom: 41px;
 }
 
 // Responsive images ============================================
@@ -17,5 +17,4 @@ img {
 
 .wrapper {
   display: flex;
-  height: 100%;
 }

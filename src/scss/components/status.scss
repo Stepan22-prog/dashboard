@@ -1,0 +1,19 @@
+.status {
+  display: inline-block;
+  width: 100%;
+  padding: 4px 18px;
+  border-radius: 4px;
+  text-align: center;
+
+  &_active {
+    background-color: rgba($activeLightColor, .38);
+    color: $activeDarkColor;
+    border: 1px solid $activeDarkColor;
+  }
+
+  &_inactive {
+    background-color: rgba($errorLightColor, .38);
+    color: $errorDarkColor;
+    border: 1px solid $errorDarkColor;
+  }
+}

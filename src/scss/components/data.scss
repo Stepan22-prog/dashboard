@@ -1,0 +1,75 @@
+.data {
+  background: $whiteColor;
+  box-shadow: 0 10px 60px 0 rgba(#E2ECF9, .5);
+  border-radius: 30px;
+  margin-top: 51px;
+  padding: 30px 40px 40px 38px;
+
+  &__header {
+    display: flex;
+    // padding: 30px 40px 0 53px;
+  }
+
+  &__title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 7px;
+  }
+
+  &__subtitle {
+    color: $activeLightColor;
+    font-weight: 400;
+  }
+
+  &__column {
+    flex: auto;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  &__entries {
+    color: #B5B7C0
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+
+  &__more {
+    font-size: 12px;
+  }
+
+  &__button {
+    width: 26px;
+    height: 24px;
+    color: #404B52;
+    background-color: #F5F5F5;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: $standardTrans;
+    svg {
+      fill: #404B52;
+    }
+
+    &_active, &:hover {
+      background-color: $accentColor;
+      color: $whiteColor;
+      border-color: $accentColor;
+      svg {
+        fill: $whiteColor;
+      }
+    }
+
+    &_prev {
+      transform: rotate(180deg);
+    }
+  }
+}
