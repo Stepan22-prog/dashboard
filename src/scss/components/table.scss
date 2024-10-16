@@ -17,19 +17,27 @@
     }
   }
 
-  &__body {
-
+  &__row {
+    height: 29px;
   }
 
   &__cell {
-    padding: 20px 12px;
+    padding: 20px;
     border-bottom: 1px solid #EEEEEE;
     color: #292D32;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
 
     &_header {
       color: $secondaryColor;
       text-align: left;
-      padding: 14px 12px;
+      padding: 14px 20px;
       border-bottom: none;
     }
 

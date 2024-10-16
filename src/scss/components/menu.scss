@@ -15,12 +15,15 @@
   a {
     display: flex;
     align-items: center;
-    padding: 8px 11px;
+    padding: 11px 8px 11px 11px;
   }
 
   &__icon {
     fill: #9197B3;
-    stroke: #9197B3;
+    &_type_stroke {
+      fill: none;
+      stroke: #9197B3;
+    }
   }
 
   &__arrow {
@@ -43,8 +46,15 @@
       color: $whiteColor;
     }
 
-    svg {
+    .menu-item__icon {
       fill: $whiteColor;
+      &_type_stroke {
+        fill: none;
+        stroke: $whiteColor;
+      }
+    }
+
+    .menu-item__arrow {
       stroke: $whiteColor;
     }
   }
