@@ -10,6 +10,14 @@
   @media (max-width: $tablet) {
     margin-left: 75px;
   }
+
+  @media (max-width: $mobileB) {
+    margin-right: 10px;
+  }
+
+  @media (max-width: $mobileS) {
+    margin: 0 10px;
+  }
 }
 
 .main {

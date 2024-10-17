@@ -37,6 +37,12 @@
 .aside.aside_variant_small {
   width: 60px;
   transition: $standardTrans;
+
+  @media (max-width: $mobileS) {
+    width: 0px;
+    padding: 0px;
+  }
+
   .logo {
     justify-content: center;
   }

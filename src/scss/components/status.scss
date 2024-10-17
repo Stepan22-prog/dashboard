@@ -1,10 +1,10 @@
 .status {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 100%;
   max-width: 80px;
   padding: 3px 11px;
   border-radius: 4px;
-  text-align: center;
 
   &_active {
     background-color: rgba($activeLightColor, .38);
@@ -16,5 +16,21 @@
     background-color: rgba($errorLightColor, .38);
     color: $errorDarkColor;
     border: 1px solid $errorDarkColor;
+  }
+
+  &__icon {
+    display: none;
+  }
+
+  @media (max-width: $mobileB) {
+    padding: 3px 3px;
+
+    &__icon {
+      display: block;
+    }
+
+    &__text {
+      display: none;
+    }
   }
 }

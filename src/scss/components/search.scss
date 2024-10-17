@@ -8,7 +8,6 @@
   min-width: 216px;
   margin-right: 9px;
 
-
   &__input {
     background: transparent;
     border: none;
@@ -17,5 +16,24 @@
     &:focus {
       outline: none;
     }
+  }
+
+  @media (max-width: $mobileB) {
+    min-width: 0;
+    margin-right: 0;
+    padding: 4px 5px;
+
+    &__icon {
+      width: 18px;
+      height: 18px;
+    }
+
+    &__input {
+      margin-left: 5px;
+    }
+  }
+
+  @media (max-width: $mobileS) {
+    width: 100%;
   }
 }
