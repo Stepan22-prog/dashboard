@@ -16,6 +16,3 @@ In order to open the site in development mode, you need to run:
 In order to build the project you need to run:
 
     npm run build
-
-## Visit website
-[https://stirring-valkyrie-b5b6df.netlify.app/](https://stirring-valkyrie-b5b6df.netlify.app/)
