@@ -1,3 +1,7 @@
 .greetings {
   font-size: 24px;
+
+  @media (max-width: $tablet) {
+    font-size: 24px;
+  }
 }

@@ -5,10 +5,20 @@
   background: $whiteColor;
   box-shadow: 0 10px 60px 0 rgba(#E2ECF9, .5);
   padding: 36px 28px 76px 28px;
+  transition: $standardTrans;
 
   @media (max-width: $laptop) {
-    flex: 0 0 25%;
-    padding: 36px 20px 56px 20px;
+    flex: 0 0 218px;
+    padding: 35px 20px 56px 20px;
+  }
+
+  @media (max-width: $tablet) {
+    position: absolute;
+    width: 218px;
+    height: 100%;
+    z-index: 2;
+    overflow-x: hidden;
+    padding: 26px 10px 46px 10px;
   }
 
   &__logo {
@@ -17,5 +27,43 @@
 
   &__menu {
     flex: auto;
+  }
+
+  svg {
+    min-width: 24px;
+  }
+}
+
+.aside.aside_variant_small {
+  width: 60px;
+  transition: $standardTrans;
+  .logo {
+    justify-content: center;
+  }
+
+  .logo__text {
+    display: none;
+  }
+
+  .menu-item {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    a {
+      padding: 8px;
+    }
+  }
+
+  .menu-item__text {
+    display: none;
+  }
+
+  .menu-item__arrow {
+    display: none;
+  }
+
+  .user__column {
+    display: none;
   }
 }

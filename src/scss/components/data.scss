@@ -9,6 +9,10 @@
     padding: 20px;
   }
 
+  @media (max-width: $tablet) {
+    margin-top: 30px;
+  }
+
   &__header {
     display: flex;
     align-items: center;
@@ -18,6 +22,10 @@
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 7px;
+
+    // @media (max-width: $tablet) {
+    //   font-size: ;
+    // }
   }
 
   &__subtitle {

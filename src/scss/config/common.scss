@@ -6,11 +6,20 @@
   @media (max-width: $laptop) {
     margin-left: 30px;
   }
+
+  @media (max-width: $tablet) {
+    margin-left: 75px;
+  }
 }
 
 .main {
   margin-top: 41px;
   margin-bottom: 41px;
+
+  @media (max-width: $tablet) {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
 }
 
 // Responsive images ============================================
@@ -23,4 +32,5 @@ img {
 .wrapper {
   display: flex;
   min-height: 100vh;
+  position: relative;
 }

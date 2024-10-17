@@ -30,11 +30,6 @@
     border-bottom: 1px solid #EEEEEE;
     color: #292D32;
 
-    @media (max-width: $laptop) {
-      padding: 15px 10px;
-      font-size: 12px;
-    }
-
     &:first-child {
       padding-left: 0;
     }
@@ -48,13 +43,19 @@
       text-align: left;
       padding: 14px 20px;
       border-bottom: none;
-      @media (max-width: $laptop) {
-        padding: 14px 10px;
-      }
     }
 
     &_center {
       text-align: center;
+    }
+
+    @media (max-width: $laptop) {
+      padding: 15px 10px;
+      font-size: 12px;
+    }
+
+    @media (max-width: $tablet) {
+      padding: 15px 5px;
     }
   }
 }
