@@ -18,7 +18,19 @@
     height: 100%;
     z-index: 2;
     overflow-x: hidden;
-    padding: 26px 10px 46px 10px;
+    padding: 14px 10px 46px 10px;
+  }
+
+  &__close {
+    display: none;
+    background: transparent;
+    max-width: max-content;
+    align-self: flex-end;
+    fill: $primaryColor;
+
+    @media (max-width: $mobileS) {
+      display: block;
+    }
   }
 
   &__logo {

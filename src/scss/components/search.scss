@@ -8,6 +8,10 @@
   min-width: 216px;
   margin-right: 9px;
 
+  &:focus-within {
+    outline: solid $secondaryColor;
+  }
+
   &__input {
     background: transparent;
     border: none;

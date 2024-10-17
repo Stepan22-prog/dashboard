@@ -20,12 +20,23 @@
       fill: #404B52;
     }
 
-    &_active, &:hover {
+    &_active {
       background-color: $accentColor;
       color: $whiteColor;
       border-color: $accentColor;
       svg {
         fill: $whiteColor;
+      }
+    }
+
+    @media (any-hover: hover) {
+      &:hover {
+        background-color: $accentColor;
+        color: $whiteColor;
+        border-color: $accentColor;
+        svg {
+          fill: $whiteColor;
+        }
       }
     }
 

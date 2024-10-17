@@ -38,7 +38,7 @@
     flex: auto;
   }
 
-  &_active, &:hover {
+  &_active {
     background: $accentColor;
     transition: $standardTrans;
 
@@ -56,6 +56,29 @@
 
     .menu-item__arrow {
       stroke: $whiteColor;
+    }
+  }
+
+  @media (any-hover: hover) {
+    &:hover {
+      background: $accentColor;
+      transition: $standardTrans;
+  
+      .menu-item__text {
+        color: $whiteColor;
+      }
+  
+      .menu-item__icon {
+        fill: $whiteColor;
+        &_type_stroke {
+          fill: none;
+          stroke: $whiteColor;
+        }
+      }
+  
+      .menu-item__arrow {
+        stroke: $whiteColor;
+      }
     }
   }
 }

@@ -16,6 +16,10 @@
     background-color: rgba($errorLightColor, .38);
     color: $errorDarkColor;
     border: 1px solid $errorDarkColor;
+
+    .status__icon {
+      fill: $errorDarkColor;
+    }
   }
 
   &__icon {
