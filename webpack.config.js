@@ -6,7 +6,7 @@ const __dirname = path.dirname(__filename);
 
 const paths = {
   src: path.resolve(__dirname, 'src'),
-  build: path.resolve(__dirname, 'dist'),
+  build: path.resolve(__dirname, 'docs'),
 };
 
 export const webpackConfig = (isMode) => {
