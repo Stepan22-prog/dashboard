@@ -10,7 +10,7 @@
       display: block;
       position: absolute;
       left: -20px;
-      background: #EEEEEE;
+      background: $greyLight;
       width: calc(100% + 38px + 38px);
       height: 1px;
 
@@ -26,8 +26,8 @@
 
   &__cell {
     padding: 20px;
-    border-bottom: 1px solid #EEEEEE;
-    color: #292D32;
+    border-bottom: 1px solid $greyLight;
+    color: $secondaryColor;
 
     &:first-child {
       padding-left: 0;
@@ -38,7 +38,7 @@
     }
 
     &_header {
-      color: $secondaryColor;
+      color: $greyMedium;
       text-align: left;
       padding: 14px 20px;
       border-bottom: none;

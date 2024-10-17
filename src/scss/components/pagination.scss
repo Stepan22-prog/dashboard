@@ -10,14 +10,14 @@
   &__button {
     width: 26px;
     height: 24px;
-    color: #404B52;
+    color: $greyDark;
     background-color: #F5F5F5;
-    border: 1px solid #EEEEEE;
+    border: 1px solid $greyLight;
     border-radius: 4px;
     cursor: pointer;
     transition: $standardTrans;
     svg {
-      fill: #404B52;
+      fill: $greyDark;
     }
 
     &_active {

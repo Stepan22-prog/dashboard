@@ -19,21 +19,21 @@
   }
 
   &__icon {
-    fill: #9197B3;
+    fill: $greyColor;
     &_type_stroke {
       fill: none;
-      stroke: #9197B3;
+      stroke: $greyColor;
     }
   }
 
   &__arrow {
     fill: none;
-    stroke: #9197B3;
+    stroke: $greyColor;
   }
 
   &__text {
     font-size: 14px;
-    color: #9197B3;
+    color: $greyColor;
     margin-left: 14px;
     flex: auto;
   }

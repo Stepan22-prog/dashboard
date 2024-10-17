@@ -1,4 +1,3 @@
-//adaptive
 $mobileS: 450px;
 $mobileB: 768px;
 $tablet: 1024px;
@@ -6,13 +5,15 @@ $laptop: 1439px;
 
 $containerWidth: 968px;
 
-$mainOffset: 20px; // container safety paddings
-$mainOffsetMobileB: 15px;
 $mainFont: 'Poppins';
 $mainWeight: 500;
 
 $primaryColor: #000;
-$secondaryColor: #B5B7C0;
+$secondaryColor: #292D32;
+$greyColor: #9197B3;
+$greyLight: #EEEEEE;
+$greyMedium: #B5B7C0;
+$greyDark: #404B52;
 $accentColor: #5932EA;
 $whiteColor: #fff;
 $activeDarkColor: #008767;
@@ -26,11 +27,3 @@ $fontSize: 14;
 $fontWeight: $mainWeight;
 
 $standardTrans: all 0.4s ease 0ms;
-
-$btnBoxShadow: 0px 2px 3px rgba(#000, 10%), 0px 8px 3px rgba(#000, 10%);
-
-$lightBoxShadow: 0 0 2px 0 rgba(#000, 10%), 0 0 4px 0 rgba(#000, 10%),
-  0 0 8px 0 rgba(#000, 10%);
-
-$hoverBoxShadow: 0 0 5px 0 rgba(#000, 10%), 0 0 10px 0 rgba(#000, 10%),
-  0 0 15px 0 rgba(#000, 10%);
